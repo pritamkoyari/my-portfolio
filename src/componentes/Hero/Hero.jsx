@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import styles from "./hero.module.css";
 import { getImageUrl } from "../../utils";
-// import resume from "../../../assets/hero/Pritam_koyari_resume.docx"
+import resume from "../../../assets/hero/Pritam_koyari_resume.docx";
 import Typed from "typed.js";
 
 export const Hero = () => {
@@ -32,16 +32,26 @@ export const Hero = () => {
           NodeJS. Reach out if you would like to learn more!
         </p>
         <div className={styles.buttonGroup}>
-          <a href="mailto:pritamkoyari@gmail.com" className={styles.contactBtn}>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=pritamkoyari@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.contactBtn}
+          >
             Contact Me
           </a>
-          <a
+
+          <a href={resume} download className={styles.downloadBtn}>
+            Download CV
+          </a>
+
+          {/* <a
             href="../../../assets/hero/Pritam_koyari_resume.docx"
             download
             className={styles.downloadBtn}
           >
             Download CV
-          </a>
+          </a> */}
         </div>
       </div>
       <img

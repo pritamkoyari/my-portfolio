@@ -42,11 +42,11 @@ export const Contact = () => {
   <form ref={form} onSubmit={sendEmail} className={styles.form}>
     <div className={styles.formGroup}>
       <label htmlFor="name">Name</label>
-      <input type="text" id="name" name="user_name" placeholder="Your Name" required />
+      <input type="text" id="name" name="from_name" placeholder="Your Name" required />
     </div>
     <div className={styles.formGroup}>
       <label htmlFor="email">Email</label>
-      <input type="email" id="email" name="user_email" placeholder="Your Email" required />
+      <input type="email" id="email" name="reply_to" placeholder="Your Email" required />
     </div>
     <div className={styles.formGroup}>
       <label htmlFor="message">Message</label>
