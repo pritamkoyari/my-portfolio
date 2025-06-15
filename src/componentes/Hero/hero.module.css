@@ -140,9 +140,42 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
   }
 
-  .content {
+.content {
+  width: 100%;
+}
+
+
+  .title {
+    text-align: center;
+    font-size: 42px;
+  }
+
+  .description {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .heroImg {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
     align-items: center;
   }
+
+  .contactBtn,
+  .downloadBtn {
+    width: auto;
+    padding: 12px 30px;
+  }
 }
+
