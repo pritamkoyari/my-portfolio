@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import styles from "./Contact.module.css";
@@ -15,7 +15,7 @@ export const Contact = () => {
         'service_q2k5w3t', 
         'template_1t2quks', 
         form.current,
-        'JIfKltIJRVWsvxS6v' 
+        '28snZRhd13qn_gy4c' 
       )
       .then(
         (result) => {
