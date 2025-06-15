@@ -83,6 +83,39 @@
   .submitButton:hover {
     background-color: rgb(17, 17, 71);
   }
+  .footer {
+  width: 100%;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.footer p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footerLinks a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footerLinks a:hover {
+  color: var(--color-primary);
+}
+
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;

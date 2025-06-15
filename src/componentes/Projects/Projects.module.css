@@ -1,26 +1,17 @@
-
-
 .container {
-  margin-top: 76px;
-  color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: 4rem 2rem;
 }
 
 .title {
-  font-size: 35px;
+  font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 2rem;
+  color: #fff;
 }
 
 .projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
 }
