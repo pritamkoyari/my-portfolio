@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Ship Go",
+      "imageSrc": "projects/project.png",
+      "description": "This is a Logistics  project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node", "Android"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Spin Cabs",
+      "imageSrc": "projects/project.png",
+      "description": "This is a Cab Service project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node",  "Android"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "India Online Directory",
+      "imageSrc": "projects/project.png",
+      "description": "This is a Jusdial project made to learn the latest languages by building an app.",
+      "skills": ["Next Js", "Express", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]

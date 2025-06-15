@@ -1,0 +1,19 @@
+[
+    {
+      "role": "Software Engineer Intern",
+      "organisation": "Bassetti-Group",
+      "startDate": "Sept, 2022",
+      "endDate": "Jan,2023",
+      "experiences": ["Employee Management System", "Logistics"],
+      "imageSrc": "history/bassetti.png"
+    },
+    {
+      "role": "Software Developer",
+      "organisation": "Bassetti-Group",
+      "startDate": "Feb, 2023",
+      "endDate": "Present",
+      "experiences": ["Worked On Cab Service Application", "India Online Directory"],
+      "imageSrc": "history/bassetti.png"
+    }
+    
+  ]
