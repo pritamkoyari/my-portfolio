@@ -32,13 +32,12 @@ export const Hero = () => {
           NodeJS. Reach out if you would like to learn more!
         </p>
         <div className={styles.buttonGroup}>
-          <a 
-  href="mailto:pritamkoyari@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Pritam,"
-  className={styles.contactBtn}
->
-  Contact Me
-</a>
-
+          <a
+            href="mailto:pritamkoyari@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Pritam,"
+            className={styles.contactBtn}
+          >
+            Contact Me
+          </a>
 
           <a href={resume} download className={styles.downloadBtn}>
             Download CV

@@ -96,9 +96,7 @@ export const Contact = () => {
             LinkedIn
           </a>
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=pritamkoyari@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:pritamkoyari@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Pritam,"
           >
             Email
           </a>
