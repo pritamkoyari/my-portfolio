@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import styles from "./hero.module.css";
 import { getImageUrl } from "../../utils";
-import resume from "../../../assets/hero/assets/hero/Pritam_koyari_resume (2).docx";
+import resume from "../../../assets/hero/Pritam_koyari_resume.docx";
 import Typed from "typed.js";
 
 export const Hero = () => {
