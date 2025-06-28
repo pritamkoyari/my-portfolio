@@ -6,19 +6,27 @@ import resume from "../../../assets/hero/Pritam_koyari_resume.docx";
 import Typed from "typed.js";
 
 export const Hero = () => {
-  useEffect(() => {
-    const options = {
-      strings: ["Frontend Developer", "Web Designer", "Web Developer"],
-      typeSpeed: 100,
-      backSpeed: 50,
-      loop: true,
-    };
-    const typed = new Typed(".txt-rotate", options);
+useEffect(() => {
+  const options = {
+    strings: [
+      `<span class="typedColor1">Frontend Developer</span>`,
+      `<span class="typedColor2">Web Designer</span>`,
+      `<span class="typedColor3">Web Developer</span>`,
+    ],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop: true,
+    smartBackspace: true,
+    showCursor: true,
+    html: true, // ✅ This allows HTML tags inside strings
+  };
 
-    return () => {
-      typed.destroy();
-    };
-  }, []);
+  const typed = new Typed(".txt-rotate", options);
+
+  return () => {
+    typed.destroy();
+  };
+}, []);
 
   return (
     <section className={styles.container}>

@@ -6,6 +6,7 @@ import { Experience } from "./componentes/Experience/Experience";
 import { Hero } from "./componentes/Hero/Hero";
 import { Projects } from "./componentes/Projects/Projects";
 import { Navbar } from './componentes/navbar/Navbar';
+import { Footer } from "./componentes/Footer/Footer";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Experience/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </div>
     
     </>

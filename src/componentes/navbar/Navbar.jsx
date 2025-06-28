@@ -10,8 +10,10 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        <span className={styles.firstLetter}>P</span>ritam{" "}
+        <span className={styles.firstLetter}>K</span>oyari
       </a>
+
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}

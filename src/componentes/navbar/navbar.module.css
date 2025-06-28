@@ -16,7 +16,9 @@
   text-decoration: none;
   color: var(--color-text);
 }
-
+.firstLetter{
+   color: var(--color-accent, #00bcd4);
+}
 
 .menuBtn {
   display: none;
@@ -47,7 +49,6 @@
   .menu {
     position: absolute;
     right: 0;
-    margin-right: 10%;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;

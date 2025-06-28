@@ -28,6 +28,8 @@
 
 .aboutImage {
   width: 35%;
+  height: 35%;
+  object-fit: cover;
   border-radius: 50%;
 }
 
@@ -62,6 +64,7 @@
 .aboutItem h3 {
   font-size: 25px;
   font-weight: 600;
+   color: var(--color-accent, #00bcd4);
 }
 
 .aboutItem p {

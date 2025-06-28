@@ -29,9 +29,25 @@
     rgba(255, 255, 255, 1) 70%,
     rgba(255, 255, 255, 0) 120%
   );
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   -webkit-background-clip: text;
 }
+:global(.typedColor1) {
+  color: #00bcd4; /* Cyan */
+}
+
+:global(.typedColor2) {
+  color: #4caf50; /* Green */
+}
+
+:global(.typedColor3) {
+  color: #ff4081; /* Pink */
+}
+
+:global(.typed-cursor) {
+  color: #fff;
+}
+
 
 .description {
   font-size: 30px;

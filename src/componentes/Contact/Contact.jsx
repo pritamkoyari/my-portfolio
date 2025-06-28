@@ -76,32 +76,7 @@ export const Contact = () => {
 
         {/* New Footer Section */}
       </footer>
-      <div className={styles.footer}>
-        <p>
-          &copy; {new Date().getFullYear()} Pritam Koyari. All rights reserved.
-        </p>
-        <div className={styles.footerLinks}>
-          <a
-            href="https://github.com/pritamkoyari"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://www.linkedin.com/in/pritam-koyari-b2a016214/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="mailto:pritamkoyari@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Pritam,"
-          >
-            Email
-          </a>
-        </div>
-      </div>
+      
     </>
   );
 };
